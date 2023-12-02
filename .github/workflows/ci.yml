@@ -1,5 +1,6 @@
 name: ci
 
+# 说明是在 push 和 pull_request 的时候会触发当前的这个工作流（Workflow）
 on: [push, pull_request]
 
 jobs:
